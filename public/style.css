@@ -1,36 +1,83 @@
 * {
-  margin: 0px;
-  padding: 0px;
+  box-sizing: border-box;
 }
 
 body {
-  padding: 10px;
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+p {
+  max-width: 600px;
+}
+
+
+
+input, textarea {
+  margin-bottom: 5px;
+  padding: 2px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  font-size: 12px;
+}
+
+input[type="submit"] {
+  font-size: 12px;
+  border-radius: 3px;
+  background-color: lightgrey;
+  border: 1px solid grey;
+  box-shadow: 1px 1px teal;
+  
+}
+
+input[type="submit"]:hover {
+  background-color: pink;
+}
+
+input[type="submit"]:active {
+  box-shadow: none;
+}
+
+
+
+body {
+padding: 10px;
 }
 
 .replies {
-  margin-left: 50px;
+margin-left: 50px;
 }
 
 .reply {
-  border: 1px dotted black;
-  margin: 5px;
-  padding: 5px;
+border: 1px dotted black;
+margin: 5px;
+padding: 5px;
+border-radius: 3px;
 }
 
 .newReply {
-  margin: 10px 5px 10px 5px;
+margin: 10px 5px 10px 5px;
 }
 
 .thread {
-  border: 2px solid black;
-  padding: 5px;
-  margin-bottom: 5px;
+border: 1px solid black;
+padding: 5px;
+margin-bottom: 5px;
+border-radius: 3px;
 }
 
 .id {
-  font-size: 10.5px;
+font-size: 10.5px;
 }
 
 #submitNewThread {
-  margin: 50px;
+margin: 50px;
 }
